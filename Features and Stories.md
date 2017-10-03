@@ -1,0 +1,4 @@
+# Features, Stories, and Sizing
+Features, Stories, and Tasks are the basic units of work. These units of work are defined both by how they fit into source control and the level of effort required to complete them. A feature work item is primarily defined as corresponding feature branch in a Git repository, whereas a story represents a unit of work which can be completed in a single sprint. But because some stories are standalone and do not fit into a larger project (e.g. Bug fixes), unparented stories will correspond to a single feature branch in code.
+
+Stories can be independently deployed and tested and completed, however the feature is only done when the branch is merged back into the development mainline. From this point, the code will be assigned a version and become eligible for deployment to integrated testing environments. (Unparented stories are done when the corresponding feature branch is merged.)
