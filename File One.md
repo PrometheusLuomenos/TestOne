@@ -6,3 +6,4 @@ Here is some text.
 * Three
 
 Here is some more text.
+Some more text in a new branch.
