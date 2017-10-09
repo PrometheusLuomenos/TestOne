@@ -6,7 +6,7 @@
 * **Task** A task is a unit of work that represents a discreet amount of work which a single person can complete in less than two days. Tasks are estimated in hours which should be updated on a daily basis while those tasks are active. Tasks are primarily managed by the "doers", so developers are responsible for creating the task, estimating effort, and burning down the tasks.
 * **Bug** A bug is a unit of work similar to a task, but represents unplanned work which was identified over the course of unit testing or QA testing.
 
-**Issue** If a defect is found after code is delivered to UAT, but before code has been promoted to Production. Because issues are necessarily defects which were missed during SVA testing, it is tracked differently. Issues live alongside Stories in work item tracking and should be ranked in priority along with stories. An issue that prevents promotion of a feature should be included as a child of that feature and marked as preventing promotion.
+**Defect** If an issue is found after UAT promotion, either in UAT or Production, it is documented as a defect. Issues live alongside Stories in work item tracking and should be ranked in priority along with stories. An issue that prevents promotion of a feature should be included as a child of that feature and marked as preventing promotion.
 
 
 # Features, Stories, and Sizing
